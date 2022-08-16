@@ -24,6 +24,6 @@ function prime_factors(n){
   }
  
 
-pfs = prime_factors(100)
+pfs = prime_factors(600851475143)
 largest_prime_factor = Math.max(...pfs)  //# The largest element in the prime factor list
 console.log(largest_prime_factor)
